@@ -1,0 +1,34 @@
+let str="nimap";
+let count=3
+let revcount=-count;
+// str.substring(0, str.length-count) cut string from given count
+let string = str.substring(0, str.length+revcount);
+console.log(string);
+//str.sustr(-count) give last characters
+let last=str.substr(revcount);
+console.log(last)
+let newstring=last.concat(string)
+console.log(newstring)
+
+// =================
+let str="nimap";
+count=2;
+
+// for(let i=0;i<str.length-count;i++){
+// console.log(str[i])
+// }
+var str1;
+var str2;
+var newstr;
+for(let i=0;i<str.length;i++){
+    if(i<str.length-count){
+      str1=str[i]
+        console.log("====> "+str1)
+  
+    }else{
+      str2=str[i]
+        console.log("hshsh  "+str2) 
+   
+    }
+  
+    }
